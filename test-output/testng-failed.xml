@@ -10,6 +10,13 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- Test.Booking -->
+      <class name="Test.Logintest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Test.Logintest -->
     </classes>
   </test> <!-- Smoke Tests(failed) -->
 </suite> <!-- Failed suite [Automation Suite] -->
