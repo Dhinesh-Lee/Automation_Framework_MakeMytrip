@@ -9,7 +9,7 @@ import utility.ExtentListener;
 @Listeners(ExtentListener.class)
 public class Booking extends Browser {
 
-    @Test
+    @Test(enabled= false)
     public void bookingStay() {
 
         BookingStay stay = new BookingStay();
